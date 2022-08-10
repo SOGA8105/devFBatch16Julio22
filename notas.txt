@@ -88,3 +88,39 @@ Las tareas se pueden administrar y ejecutar de forma:
 - CONCURRENTE. Una serie de instrucciones que simulan paralelismo en un solo hilo/menos recursos, ejecutandose de forma estrategica dandole prioridad a algunas instrucciones con 
 respecto a otras. Esta prioridad, la suele establecer el lenguaje ò el programador. En javascript, lo hace el event loop que puede vivir en el
 browser ò en node y depende de còmo el programador domine el flujo, para no bloquear el hilo.
+===============================================================================================================
+
+"use strict", es el modo estricto en js, nos forza a "codear" de forma correcta, ya que
+por defecto, js se ejecuta en modo descuidado(sloppy mode).
+
+Cuando programas con js "puro", se le conoce como vanilla javascript
+===============================================================================================================
+
+Authentication & Authorization
+
+Authentication: ¿quien eres?/identificarte
+Authorization: ¿què puedes hacer?/permisos
+===============================================================================================================
+
+Web para crear apis de prueba ;)
+https://myjson.dit.upm.es/6ncq
+
+//NOTA: En funciones constructoras, SIEMPRE se utiliza 'this',
+osea que no podemos usar arrow functions para crear estas funciones, porque 'this' no se puede usar en arrow functions
+===============================================================================================================
+
+APIS
+los headers, son configuraciones de una peticion HTTP
+el body, es elcuerpo de la peticion. Contiene los datos que recibimos ò enviamos
+===============================================================================================================
+
+DEFINICIÒN: 
+
+* TRANSPILADOR:
+  
+  Transpilador es un tipo especial de compilador que
+  traduce de un lenguaje fuente a otro fuente también
+  de un nivel de abstracción parecido. Se diferencia de
+  los compiladores tradicionales en que estos reciben
+  como entrada ficheros conteniendo código fuente y
+  generan código máquina del más bajo nivel.
